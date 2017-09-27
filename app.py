@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-	return 'SUP BITCHES'
+	return 'This is a homepage'
 
 if __name__ == "__main__" :
 	app.run()
